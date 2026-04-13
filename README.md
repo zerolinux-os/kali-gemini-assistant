@@ -1,129 +1,150 @@
-# 🔥 Kali Gemini Assistant
+# Kali Gemini Assistant
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
-
 <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white"/>
-
 <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
+
+<br/>
+<br/>
+
+**A lightweight, high-speed Kali Linux assistant powered by the Gemini API — built for ethical security professionals.**
+
 </div>
 
-<p align="center">
+---
 
-<b>Kali Linux Smart Assistant using Gemini - The fastest and lightest hacking tool assistant</b> Ethical
+## Features
 
-## ✨ Features
+| Feature | Description |
+|---|---|
+| 🚀 **Blazing Speed** | Instant responses via the Gemini API |
+| 🛡️ **Comprehensive Coverage** | All major Kali Linux tools in one interface |
+| 💬 **Interactive Chat** | Free-form conversation with Gemini |
+| ⚡ **Smart Shortcuts** | Quick aliases for the most commonly used tools |
+| 📝 **Save & Export** | Save responses and export them as reports |
+| 🔧 **Extensible** | Easily add new tools and custom features |
 
-- 🚀 **Blazing Speed** - Instant response using the Gemini API
-- 🛡️ **Comprehensive Coverage** - All Kali Linux tools in one place
-- 💬 **Interactive Chat** - Chat freely with Gemini
-- ⚡ **Shortcuts** - Smart shortcuts for the most popular tools
-- 📝 **Save & Export** - Save answers and export them as reports
-- 🔧 **Extensible** - Easily add new tools and features
+---
 
-## 📋 Requirements
+## Requirements
 
 - Kali Linux (any version)
-- Gemini-CLI (`sudo apt install gemini-cli`)
-- Node.js (installs automatically with Gemini)
+- `gemini-cli` — install via `sudo apt install gemini-cli`
+- Node.js (installed automatically as a dependency of `gemini-cli`)
 
-## 🚀 Quick Installation
+---
+
+## Installation
 
 ```bash
-# 1. Copy the repository
-`git clone` https://github.com/zerolinux-os/kali-gemini-assistant.git
+# 1. Clone the repository
+git clone https://github.com/zerolinux-os/kali-gemini-assistant.git
 cd kali-gemini-assistant
 
-# 2. Run the installation
+# 2. Run the installer
 chmod +x install.sh
 ./install.sh
 
-# 3. Run the helper
+# 3. Launch the assistant
 kgemini
+```
 
+---
 
-🎯 How to Use
-Main Menu
-text
+## Usage
 
-1. 🛡️ Reconnaissance Tools
-2. 🔍 Vulnerability Analysis Tools
-3. 💻 Exploitation Tools
-4. 🔑 Password Attack Tools
-5. 🌐 Web Applications
-6. 📡 Networking Tools
-7. 📝 Custom Script Writing
-8. 💬 Free Chat with Gemini
-9. ⚙️ Advanced Settings
-0. ❌ Exit
+### Main Menu
 
-Quick Shortcuts
-bash
+```
+1. 🛡️  Reconnaissance Tools
+2. 🔍  Vulnerability Analysis Tools
+3. 💻  Exploitation Tools
+4. 🔑  Password Attack Tools
+5. 🌐  Web Application Testing
+6. 📡  Networking Tools
+7. 📝  Custom Script Writing
+8. 💬  Free Chat with Gemini
+9. ⚙️  Advanced Settings
+0. ❌  Exit
+```
 
-# Explain any tool
+### Quick Shortcuts
+
+```bash
+# Get an explanation for any tool
 ghelp nmap
 
-# Quick Scan
+# Run a quick scan
 gmap 192.168.1.1
 
-# Interactive Chat
+# Start an interactive chat session
 gemini -i
+```
 
-During Chat
+### In-Session Commands
 
-save - Save last answer
+| Command | Action |
+|---|---|
+| `save` | Save the last response to a file |
+| `copy` | Copy the response to clipboard |
+| `run` | Execute the first suggested command |
+| `back` | Return to the main menu |
 
-copy - Copy answer to clipboard
+---
 
-run - Execute First suggested command
+## Project Structure
 
-Back - Return to the menu
-
-📁 Project Structure
-text
-
+```
 kali-gemini-assistant/
-├── kali-gemini.sh # Main script
-├── install.sh # Installation script
-├── README.md # This file
-├── LICENSE # MIT license
-└── config/ # Additional settings
-├── aliases.conf # Custom shortcuts
-└── tools.conf # Tools list
+├── kali-gemini.sh      # Main script
+├── install.sh          # Installation script
+├── README.md           # Documentation
+├── LICENSE             # MIT License
+└── config/
+    ├── aliases.conf    # Custom shortcuts
+    └── tools.conf      # Tools configuration
+```
 
-🤝 Contribution
+---
 
-We welcome your contributions! To contribute:
+## Contributing
 
-Fork the project
+Contributions are welcome. To submit a change:
 
-Create a new branch (git checkout -b feature/AmazingFeature)
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m 'Add YourFeature'`
+4. Push the branch: `git push origin feature/YourFeature`
+5. Open a Pull Request
 
-Commit the changes (git commit -m 'Add some AmazingFeature')
+---
 
-Push the branch (git push origin feature/AmazingFeature)
+## License
 
-Open the Pull Request
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-📜 License
+---
 
-MIT License - See the LICENSE file for details
+## Disclaimer
 
-⚠️ Important Notice
+> This project is intended for **educational purposes only**. The user is solely responsible for how these tools are used. Always ensure you have proper authorization before performing any security testing.
 
-This project is for educational purposes only. You are solely responsible for your use of these tools.
+---
 
-👨‍💻 Developer
+## Developer
 
-Zero - @zerolinux-os
+**Zero** — [@zerolinux-os](https://github.com/zerolinux-os)
 
-🌟 Acknowledgments
+## Acknowledgments
 
-Kali Linux Team
+- [Kali Linux Team](https://www.kali.org/)
+- [Google Gemini](https://gemini.google.com/)
+- Arab Cybersecurity Community
 
-Google Gemini
+---
 
-Arab Cybersecurity Community
-
-<p align="center">⭐ Don't forget to rate the project if you liked it! ⭐</p>
+<div align="center">
+  If you find this project useful, please consider giving it a ⭐
+</div>
